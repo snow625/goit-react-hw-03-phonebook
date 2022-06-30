@@ -1,0 +1,17 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.input {
+  margin-top: 5px;
+  border: 2px solid grey;
+  outline: transparent;
+  padding: 5px;
+  width: 170px;
+}
+
+.input:focus {
+  border: 2px solid blue;
+}
